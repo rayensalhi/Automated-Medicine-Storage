@@ -30,13 +30,35 @@ The work is structured around **two major components**:
 ## 📌 1. Computer Vision Pipeline (OCR-Based Medicine Recognition)
 
 A complete CV pipeline was developed to:
-- Detect medicine boxes in captured images  
-- Correct orientation  
+- Detect medicine boxes in captured images
+![Medecine Detection](meddetect.jpg)
+- Correct orientation and unwarping
+![Orientation Correction](correctorientation.jpg)
 - Extract text using **OCR**  
+![Text Extraction](textextract2.jpg)
 - Identify medicine names, dosages, and quantities  
+![identify_med](matchdosage.jpg)
 - Match results against a pharmaceutical database  
+![med_database](med_database.jpg)
+
 
 This module enables **high-accuracy recognition** even from noisy or rotated images.
+
+### 📊 OCR Performance Summary
+
+| **Criterion**                   | **Result (French OCR)** | **Result (Arabic OCR)** |
+|--------------------------------|---------------------------|---------------------------|
+| Number of tested images        | 310                       | 140                       |
+| Full Match Rate                | 90.0%                     | 91.4%                     |
+| Partial Match Rate             | 6.1%                      | 4.3%                      |
+| No Match Rate                  | 3.9%                      | 4.3%                      |
+| Success Rate                   | 93.87%                    | 6.13%                     |
+| Error Rate                     | 92.14%                    | 7.86%                     |
+| Total processing time          | 3 min 55 s                | 3 min 15 s                |
+| Average time per image         | 0.758 s                   | 0.964 s                   |
+| GPU Usage (VRAM)               | < 2 GB                    | < 2 GB                    |
+
+This test evaluates the full computer vision pipeline—from ESP32-CAM image capture to OCR extraction and database matching. Each image represents a unique medication case with variations in language, dosage, and quantity. The dataset contains both Arabic and Latin text, and all images include usable information. Processing was executed on a laptop.
 
 ---
 
@@ -44,15 +66,24 @@ This module enables **high-accuracy recognition** even from noisy or rotated ima
 
 The second part of the project focuses on an automated robotic storage system based on:
 - A **Cartesian XY robot**
+![xy](solid3.PNG)
 - A **gripper** for box handling  
+![gripper](solid5.PNG)
 - Motion control using **ESP32-based boards**  
+![concep _elect](concep _elect.jpg)
 - Task execution after receiving commands from the CV pipeline  
 
 The robot:
+➡️ X and Y axis calibration using limit switches
+![limit switches](structure.png)
+➡️ Accurate scanning and recording of dividers to store the position of each compartment using a laser
+![scanning](gripper2.jpeg)
 ➡️ Retrieves the identified medicine  
+![Retrieves](image00009.jpeg)
 ➡️ Moves it to the appropriate storage location  
+![positioning](positionning.jpg)
 ➡️ Places it safely inside the cabinet  
-
+![deliver](deliver.jpeg)
 This ensures **fully automated and reliable operation**.
 
 ---
@@ -72,7 +103,7 @@ The project followed the **Agile SCRUM methodology**, integrating:
 - Computer Vision development  
 - Mechanical design of the XY robot  
 - PCB & electronic design based on ESP32  
-- MQTT and communication protocol design  
+- MQTT and communication protocol 
 - Iterative testing and refinement  
 
 ---
