@@ -68,7 +68,7 @@ The second part of the project focuses on an automated robotic storage system ba
 - A **Cartesian XY robot**
 ![xy](solid3.PNG)
 - A **gripper** for box handling  
-![gripper](solid5.PNG)
+![gripper](solid_gripper.jpg)
 - Motion control using **ESP32-based boards**  
 ![concep _elect](concep _elect.jpg)
 - Task execution after receiving commands from the CV pipeline  
