@@ -131,13 +131,13 @@ https://drive.google.com/drive/folders/1rWNkGL16mq7j9nAlx2hy_UhUSQMlzgM9?usp=sha
 ## 📚 Useful Documentation
 
 - **PADDLE OCR**  
-  https ://github.com/PaddlePaddle/PaddleOCR
+  [https ://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR.git)
 
 - **EASY OCR**  
   https ://www.jaided.ai/easyocr/
 
 - **TESSERACT OCR**
-  https ://github.com/tesseract-ocr/tesseract
+  [https ://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract.git)
 
  - **ULTRALYTICS (for YOLO detection)**
    https ://docs.ultralytics.com/
