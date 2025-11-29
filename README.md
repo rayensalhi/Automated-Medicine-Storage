@@ -134,13 +134,13 @@ https://drive.google.com/drive/folders/1rWNkGL16mq7j9nAlx2hy_UhUSQMlzgM9?usp=sha
   [https ://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR.git)
 
 - **EASY OCR**  
-  https://www.jaided.ai/easyocr/
+  [https://www.jaided.ai/easyocr/](https://github.com/JaidedAI/EasyOCR.git)
 
 - **TESSERACT OCR**
   [https ://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract.git)
 
  - **ULTRALYTICS (for YOLO detection)**
-   https ://docs.ultralytics.com
+   [https ://docs.ultralytics.com](https://github.com/ultralytics/ultralytics.git)
 
  - **RapidFuzz**
    [https ://rapidfuzz.github.io/RapidFuzz/](https://github.com/rapidfuzz/RapidFuzz.git)
