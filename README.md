@@ -8,13 +8,13 @@ ASQII HealthTech | Tunis, Tunisia | 2024–2025
 ## 🎥 Project Demonstration
 
 ### 1️⃣ Computer Vision Pipeline (GIF)
-![Computer Vision Demo](media/cv_demo.gif)
+![Computer Vision Demo](OCR_GIF.gif)
 
 ### 2️⃣ Robotic Storage System (GIF)
-![Robot Demo](media/robot_demo.gif)
+![Robot Demo](med_deliver1.gif)
 
 ### 🖼️ OCR Extraction Example
-![OCR Example](media/ocr_example.png)
+![OCR Example](fr_full_match.jpg)
 
 ---
 
@@ -124,5 +124,33 @@ Computer Vision · OCR · Cartesian Robot · MQTT · Pharmaceutical Automation �
 
 ---
 
-## 📁 Repository Structure
+## 📚 More Videos of the Prototype
+
+
+
+## 📚 Useful Documentation
+
+- **PADDLE OCR**  
+  https ://github.com/PaddlePaddle/PaddleOCR
+
+- **EASY OCR**  
+  https ://www.jaided.ai/easyocr/
+
+- **TESSERACT OCR**
+  https ://github.com/tesseract-ocr/tesseract
+
+ - **ULTRALYTICS (for YOLO detection)**
+   https ://docs.ultralytics.com/
+
+ - **RapidFuzz**
+   https ://rapidfuzz.github.io/RapidFuzz/
+   
+- **MQTT**
+  https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf
+  
+- **ESP32**
+  https://documentation.espressif.com/esp32
+  
+- **STEPPERS**
+  https://www.orientalmotor.com/stepper-motors/index.html
 
