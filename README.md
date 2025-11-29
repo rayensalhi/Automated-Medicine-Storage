@@ -152,5 +152,5 @@ https://drive.google.com/drive/folders/1rWNkGL16mq7j9nAlx2hy_UhUSQMlzgM9?usp=sha
   https://documentation.espressif.com/esp32
   
 - **STEPPERS**
-  https://www.orientalmotor.com/stepper-motors/index.html
+  [https://www.orientalmotor.com/stepper-motors/index.html](https://www.orientalmotor.com/stepper-motors/)
 
