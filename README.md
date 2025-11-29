@@ -140,10 +140,10 @@ https://drive.google.com/drive/folders/1rWNkGL16mq7j9nAlx2hy_UhUSQMlzgM9?usp=sha
   [https ://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract.git)
 
  - **ULTRALYTICS (for YOLO detection)**
-   https ://docs.ultralytics.com/
+   https ://docs.ultralytics.com
 
  - **RapidFuzz**
-   https ://rapidfuzz.github.io/RapidFuzz/
+   [https ://rapidfuzz.github.io/RapidFuzz/](https://github.com/rapidfuzz/RapidFuzz.git)
    
 - **MQTT**
   https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf
