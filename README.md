@@ -126,7 +126,7 @@ Computer Vision · OCR · Cartesian Robot · MQTT · Pharmaceutical Automation �
 
 ## 📚 More Videos of the Prototype
 
-
+https://drive.google.com/drive/folders/1rWNkGL16mq7j9nAlx2hy_UhUSQMlzgM9?usp=sharing
 
 ## 📚 Useful Documentation
 
